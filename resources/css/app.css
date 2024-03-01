@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3 {
+    font-family: "Designer", sans-serif;
+    text-align: center;
+}
+body {
+    font-family: "AlteRegular", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+}
